@@ -1,0 +1,77 @@
+table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #A4ABB2;
+    padding: 5px;
+}
+
+thead, tfoot {
+    background: #E7E9EB;
+}
+
+.gradient {
+    background: #F2F2F4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F2F2F4, #E7E9EB 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F2F2F4, #E7E9EB 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F2F2F4, #E7E9EB 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F2F2F4, #E7E9EB 50%); /* Standard syntax */
+}
+
+input {
+    height: 20px;
+    vertical-align: top;
+}
+
+.width40 {
+    width: 40px;
+}
+
+.width100 {
+    width: 100px;
+}
+
+img {
+    width: 18px;
+    margin-left: -3px;
+    vertical-align: bottom;
+}
+
+button {
+    height: 26px;
+    width: 30px;
+    border: 1px solid #A4ABB2;
+    border-radius: 3px;
+}
+
+tfoot {
+    vertical-align: baseline;
+}
+
+tfoot a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+tfoot a:hover {
+    border: 1px solid red;
+}
+
+tfoot input {
+    vertical-align: top;
+}
+
+#text-align-right {
+    float: right;
+    display: inline;
+    margin: 0;
+}
+
+.margin-right-60 {
+    margin-right: 60px;
+}

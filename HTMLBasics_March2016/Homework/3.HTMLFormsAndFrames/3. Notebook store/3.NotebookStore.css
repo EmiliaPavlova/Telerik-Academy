@@ -1,0 +1,100 @@
+#wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    width: 960px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline;
+}
+
+h1 a {
+    color: #00ADF0;
+}
+
+hr {
+    height: 2px;
+    background: black;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Georgia;
+}
+
+section {
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+
+fieldset {
+    width: 260px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+img {
+    width: 150px;
+    float: left;
+}
+
+fieldset a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-align: right;
+}
+
+fieldset p {
+    display: inline-block;
+    width: 42%;
+}
+
+fieldset p:last-child {
+    float: right;
+}
+
+aside {
+    width: 300px;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    line-height: 50px;
+    vertical-align: top;
+    margin-top: 100px;
+    font-family: Georgia;
+    font-size: 1.6em;
+}
+
+label {
+    padding: 10px 5px 5px;
+    display: block;
+    text-align: left;
+}
+
+input[type="range"] {
+    width: 250px;
+}

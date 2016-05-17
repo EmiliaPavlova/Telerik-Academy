@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="1.RegistrationForm.css">
+    <title>Registration form</title>
+</head>
+<body>
+<div id="wrapper">
+    <table>
+        <tr>
+            <td class="right-aligned">Last Name</td>
+            <td colspan="3"><input type="text"/></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">First Name</td>
+            <td colspan="3"><input type="text"/></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Address</td>
+            <td colspan="3"><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">City</td>
+            <td><input type="text"/></td>
+            <td class="right-aligned width50">State</td>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Zip/Postal Code</td>
+            <td colspan="3"><input type="text"/></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Country</td>
+            <td colspan="3">
+                <select>
+                    <option>Bulgaria</option>
+                    <option>France</option>
+                    <option>Spain</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Phone (country code, area code, number)</td>
+            <td colspan="3">(+ <input class="width50" type="number"/> ) <input class="width50" type="number"/> - <input type="number"/></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">E-mail</td>
+            <td colspan="3"><input type="email"/></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Birth date</td>
+            <td colspan="3">Month <input class="width30" type="number"/> Day <input class="width30" type="number"/> Year (4 digits) <input class="width50" type="number"/></td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Gender</td>
+            <td colspan="3">
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Starting date</td>
+            <td colspan="3">
+                <input type="radio" name="starting-date" value="spring" checked> Spring 2006
+                <input type="radio" name="starting-date" value="summer" checked> Summer 2006
+            </td>
+        </tr>
+        <tr>
+            <td class="right-aligned">Comments/Questions</td>
+            <td colspan="3"><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="center">
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Clear This Form" />
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

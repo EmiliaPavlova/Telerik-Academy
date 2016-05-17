@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+        #wrapper{
+            margin: 0 auto;
+        }
+        table{
+            margin: 0 auto;
+        }
+        table, td {
+            border: 1px solid grey;
+        }
+        td {
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            text-align: center;
+        }
+        .bottom-text {
+            vertical-align: bottom;
+        }
+        .left-aligned {
+            text-align: left;
+        }
+        .right-aligned {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <table>
+        <tr>
+            <td colspan="3" class="left-aligned">Title goes here</td>
+            <td>A</td>
+            <td class="right-aligned">B</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="left-aligned">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <td class="right-aligned">G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td colspan="2">I</td>
+            <td rowspan="2" class="right-aligned bottom-text">J</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td class="right-aligned">N</td>
+            <td colspan="4">O</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

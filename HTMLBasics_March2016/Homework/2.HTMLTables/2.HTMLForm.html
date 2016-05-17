@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        form {
+            width: 400px;
+        }
+        input {
+            margin: 2px;
+        }
+        span {
+            font-weight: bold;
+        }
+        input[type="submit"] {
+            font-style: italic;
+            padding: 5px 10px;
+            border: 3px;
+            border-color: #179600;
+            border-style: solid solid double double;
+            border-radius: 30px;
+            -ms-transform: rotate(-10deg); /* IE 9 */
+            -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+            transform: rotate(-10deg);
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <form method="post" action="#">
+        <label for="name">Member name:</label>
+        <input type="text" id="name" required="required" />
+        <span>*req</span>
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required="required" />
+        <span>*req</span>
+        <br />
+        <label for="school">School:</label>
+        <input type="text" id="school" required="required" />
+        <span>*req</span>
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+</body>
+</html>

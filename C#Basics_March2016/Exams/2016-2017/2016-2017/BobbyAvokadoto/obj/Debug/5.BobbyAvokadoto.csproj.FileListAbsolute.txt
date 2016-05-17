@@ -1,0 +1,6 @@
+D:\Telerik\C#\2016-2017\2016-2017\BobbyAvokadoto\bin\Debug\BobbyAvokadoto.exe.config
+D:\Telerik\C#\2016-2017\2016-2017\BobbyAvokadoto\bin\Debug\BobbyAvokadoto.exe
+D:\Telerik\C#\2016-2017\2016-2017\BobbyAvokadoto\bin\Debug\BobbyAvokadoto.pdb
+D:\Telerik\C#\2016-2017\2016-2017\BobbyAvokadoto\obj\Debug\5.BobbyAvokadoto.csprojResolveAssemblyReference.cache
+D:\Telerik\C#\2016-2017\2016-2017\BobbyAvokadoto\obj\Debug\BobbyAvokadoto.exe
+D:\Telerik\C#\2016-2017\2016-2017\BobbyAvokadoto\obj\Debug\BobbyAvokadoto.pdb

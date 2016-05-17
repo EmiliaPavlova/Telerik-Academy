@@ -1,0 +1,6 @@
+D:\Telerik\C#\2016-2017\2016-2017\NumberOfPages\bin\Debug\NumberOfPages.exe.config
+D:\Telerik\C#\2016-2017\2016-2017\NumberOfPages\bin\Debug\NumberOfPages.exe
+D:\Telerik\C#\2016-2017\2016-2017\NumberOfPages\bin\Debug\NumberOfPages.pdb
+D:\Telerik\C#\2016-2017\2016-2017\NumberOfPages\obj\Debug\NumberOfPages.exe
+D:\Telerik\C#\2016-2017\2016-2017\NumberOfPages\obj\Debug\NumberOfPages.pdb
+D:\Telerik\C#\2016-2017\2016-2017\NumberOfPages\obj\Debug\3.NumberOfPages.csprojResolveAssemblyReference.cache

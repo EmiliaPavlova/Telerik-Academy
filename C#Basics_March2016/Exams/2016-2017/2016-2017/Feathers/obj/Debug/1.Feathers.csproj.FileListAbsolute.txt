@@ -1,0 +1,6 @@
+D:\Telerik\C#\2016-2017\2016-2017\Feathers\bin\Debug\Feathers.exe.config
+D:\Telerik\C#\2016-2017\2016-2017\Feathers\bin\Debug\Feathers.exe
+D:\Telerik\C#\2016-2017\2016-2017\Feathers\bin\Debug\Feathers.pdb
+D:\Telerik\C#\2016-2017\2016-2017\Feathers\obj\Debug\1.Feathers.csprojResolveAssemblyReference.cache
+D:\Telerik\C#\2016-2017\2016-2017\Feathers\obj\Debug\Feathers.exe
+D:\Telerik\C#\2016-2017\2016-2017\Feathers\obj\Debug\Feathers.pdb

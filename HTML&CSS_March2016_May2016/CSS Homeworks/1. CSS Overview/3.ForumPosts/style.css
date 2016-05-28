@@ -1,0 +1,39 @@
+body {
+    background-color: #A9A9A9;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 18px;
+}
+
+h1, h2, nav, a {
+    color: #ffffff;
+}
+
+h1, nav, #wrapper > footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:hover {
+    background-color: #D3D3D3;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+article footer {
+    font-size: 0.8em;
+}
+
+h1, #wrapper > footer {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,48 @@
+#wrapper {
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #58BB06;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+}
+
+tbody tr:nth-child(2n) td {
+    background-color: #ECECD8;
+}
+
+.Germany:before {
+    content: url('images/Flag_Germany.png');
+    padding: 5px;
+}
+
+.Mexico:before {
+    content: url('images/Flag_Mexico.png');
+    padding: 5px;
+}
+
+.UK:before {
+    content: url('images/Flag_UK.png');
+    padding: 5px;
+}
+
+input[type="checkbox"] {
+    background-color: #D4D0C8;
+}

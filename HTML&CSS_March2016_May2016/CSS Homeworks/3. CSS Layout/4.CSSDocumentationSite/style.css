@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Calibri;
+    border: 1px solid #000;
+    background: #F1F1F1;
+}
+
+aside {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+#left {
+    padding-left: 3px;
+}
+
+#left > h4:before {
+    content: url("images/homeIcon.png");
+    padding-right: 5px;
+}
+
+aside a {
+    display: block;
+}
+
+#left a:not(.title) {
+    text-decoration: none;
+    color: #000;
+    line-height: 1em;
+}
+
+.title {
+    color: #900C0A;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+aside h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    width: 590px;
+    padding: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    background: #fff;
+}
+
+main header {
+    border-bottom: 2px solid #808080;
+}
+
+main h4,
+#right h4 {
+    background: #808080;
+    color: #fff;
+    padding-left: 5px;
+}
+
+main h4 {
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+}
+
+.prev, .next {
+    width: 120px;
+    height: 25px;
+    border: 2px solid #000;
+    background: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    text-align: left;
+}
+
+.next {
+    text-align: right;
+}
+
+#logo {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo:before {
+    content: url("images/logo.jpg");
+
+}
+
+#text {
+    width: 78%;
+    display: inline-block;
+}
+
+#mainArticle p {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+main a,
+#right a {
+    color: #900C0A;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+}
+
+#right section {
+    border: 2px solid #808080;
+    margin: 1px;
+    background: #fff;
+    padding-bottom: 5px;
+}
+
+#right h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#right a {
+    text-align: center;
+    padding: 2px;
+}
+
+input[type="search"] {
+    width: 120px;
+    margin-left: 20px;
+}
+
+#searchButton {
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#blueButton {
+    box-shadow: inset 0px 0px 10px 0px #93D5F7;
+    background-color: #CBEBFC;
+    border: 1px solid #5B94BE;
+    cursor: pointer;
+    color: #45CEFE;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    margin: 2px 30px;
+}
+
+#blueButton:hover {
+    background-color:#378de5;
+}

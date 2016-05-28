@@ -1,0 +1,35 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+.dropdawn {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.main ul a {
+    color: #888;
+    margin-left: 10px;
+}
+
+.main > a:hover {
+    text-decoration: underline;
+}

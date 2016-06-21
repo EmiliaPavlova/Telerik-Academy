@@ -1,0 +1,61 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    width: 500px;
+    background: #205D99;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 3px solid #79AEE3;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    font-size: 21px;
+    color: #E4EFF9;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.preview {
+    display: none;
+}
+
+input[type="radio"]:checked ~ .preview {
+    display: block;
+}
+
+input[type="radio"]:checked + label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #AECFEE;
+}
+
+li input[type="radio"]:checked .preview {
+    display: block;
+}
+
+.preview img {
+    border: 15px solid #79AEE3;
+    border-radius: 15px;
+    width: 200px;
+    margin: 0 10px 10px 15px;
+    float: left;
+}
+
+p {
+    color: #E4EFF9;
+    text-align: justify;
+    margin: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+}

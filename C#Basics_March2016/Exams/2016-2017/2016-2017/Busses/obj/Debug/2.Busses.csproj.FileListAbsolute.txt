@@ -1,5 +1,0 @@
-D:\Telerik\C#\2016-2017\2016-2017\Busses\bin\Debug\Busses.exe.config
-D:\Telerik\C#\2016-2017\2016-2017\Busses\bin\Debug\Busses.exe
-D:\Telerik\C#\2016-2017\2016-2017\Busses\bin\Debug\Busses.pdb
-D:\Telerik\C#\2016-2017\2016-2017\Busses\obj\Debug\Busses.exe
-D:\Telerik\C#\2016-2017\2016-2017\Busses\obj\Debug\Busses.pdb

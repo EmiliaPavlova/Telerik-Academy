@@ -1,5 +1,0 @@
-D:\Telerik\C#\2016-2017\2016-2017\Batman\bin\Debug\Batman.exe.config
-D:\Telerik\C#\2016-2017\2016-2017\Batman\bin\Debug\Batman.exe
-D:\Telerik\C#\2016-2017\2016-2017\Batman\bin\Debug\Batman.pdb
-D:\Telerik\C#\2016-2017\2016-2017\Batman\obj\Debug\Batman.exe
-D:\Telerik\C#\2016-2017\2016-2017\Batman\obj\Debug\Batman.pdb

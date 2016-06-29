@@ -1,0 +1,75 @@
+#root {
+    width: 720px;
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    background-color: #CCC;
+    box-sizing: border-box;
+    border-width: 0 40px;
+    border-color: #fff;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 27px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.description, .container {
+    font-size: 16px;
+}
+.description {
+    background-color: #7A7A7A;
+    border: 3px solid #fff;
+}
+
+#root > .description {
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    width: 560px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.remark {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.heroes-list {
+    padding: 10px;
+}
+
+.hero-item {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+h2 {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.hero-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin: -20px 15px 0 0;
+    float: left;
+}
+
+.hero-item .description {
+    border-radius: 5px;
+    width: 285px;
+    height: 160px;
+    margin: 5px 5px 20px 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}

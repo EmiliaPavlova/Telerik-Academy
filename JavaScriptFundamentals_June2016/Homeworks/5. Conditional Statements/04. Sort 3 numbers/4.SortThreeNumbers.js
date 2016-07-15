@@ -1,0 +1,33 @@
+function solve(input) {
+    var a = Number(input[0]),
+        b = Number(input[1]),
+        c = Number(input[2]);
+
+    if(a >= b && a >= c) {
+        if(b >= c) {
+            console.log(a + ' ' + b + ' ' + c);
+        } else {
+            console.log(a + ' ' + c + ' ' + b);
+        }
+    } else if(b >= a && b >= c) {
+        if(a >= c) {
+            console.log(b + ' ' + a + ' ' + c);
+        } else {
+            console.log(b + ' ' + c + ' ' + a);
+        }
+    } else {
+        if(a >= b) {
+            console.log(c + ' ' + a + ' ' + b);
+        } else {
+            console.log(c + ' ' + b + ' ' + a);
+        }
+    }
+}
+
+solve([5, 1, 2]);
+solve([-2, -2, 1]);
+solve([-2, 4, 3]);
+solve([0, -2.5, 5]);
+solve([-1.1, -0.5, -0.1]);
+solve([10, 20, 30]);
+solve([1, 1, 1]);

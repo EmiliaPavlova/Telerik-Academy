@@ -1,0 +1,6 @@
+D:\Telerik\C# Advanced (May 2016)\Exams\HarryPotter4D\bin\Debug\HarryPotter4D.exe.config
+D:\Telerik\C# Advanced (May 2016)\Exams\HarryPotter4D\bin\Debug\HarryPotter4D.exe
+D:\Telerik\C# Advanced (May 2016)\Exams\HarryPotter4D\bin\Debug\HarryPotter4D.pdb
+D:\Telerik\C# Advanced (May 2016)\Exams\HarryPotter4D\obj\Debug\3.HarryPotter4D.csprojResolveAssemblyReference.cache
+D:\Telerik\C# Advanced (May 2016)\Exams\HarryPotter4D\obj\Debug\HarryPotter4D.exe
+D:\Telerik\C# Advanced (May 2016)\Exams\HarryPotter4D\obj\Debug\HarryPotter4D.pdb

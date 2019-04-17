@@ -1,7 +1,6 @@
 function solve(input) {
-    var string = input[0].split("\n"),
-        array1 = string[0],
-        array2 = string[1],
+    var array1 = input[0],
+        array2 = input[1],
         i;
 
     if(array1 > array2) {
